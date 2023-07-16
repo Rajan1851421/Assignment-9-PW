@@ -1,0 +1,115 @@
+body{
+  background-color:purple;
+  display:flex;
+  justify-content:center;
+  height:100vh;
+  align-items:center;
+}
+form{
+  background-color:white;
+  padding:30px;
+  border-radius:8px;
+  display:flex;
+  
+}
+.form {
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+}
+.calBody{
+  display:flex;
+  justify-content:center;
+}
+.calculator{
+  display:flex;
+  justify-content:center;
+}
+input{
+  height:30px;
+  padding:0px 5px;
+  font-weight:800;
+  background-color:rgb(170, 168, 168)
+  
+}
+#todoBtn{
+  padding:8px 30px;
+  margin-left: 10px;
+  background-color:purple;
+  border-radius:10px;
+  color:white;
+  cursor:pointer;
+}
+.card-container{
+  margin-top:10px;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+
+  border:0px solid;
+}
+.card{
+  border:0px solid;
+  background-color:rgba(13, 13, 48, 0.918);
+  border-radius:10px;
+  padding:30px;
+  margin-left:10px;
+  
+}
+.card p{
+  text-align:center;
+  color:white;
+}
+.todoBtnContainer{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+ 
+  margin-left:auto;
+  margin-right:auto;
+  padding:10px;
+}
+.todoBtnContainer button{
+  margin-top:10px;
+  padding:10px;
+  border-radius:10px;
+  cursor:pointer;
+  width:100%;
+  background-color:blue;
+  border:none;
+  color:white;
+}
+.calBody{
+  background-color:blue;
+  padding:60px;
+  border-radius:10px;
+
+}
+.calculator{
+ border:1px solid;
+ padding:60px;
+ border-radius:10px;
+ background-color:rgba(22, 22, 54, 0.952);
+
+}
+table{
+  height:300px;
+  width:250px;
+}
+table tr td{
+  border:0px solid;
+}
+td>button{
+width:100%;
+text-align:center;
+padding:10px;
+border-radius:10px;
+font-weight:900;
+
+}
+.calculator-btn{
+  background-color:rgb(240, 173, 48);
+  font-weight:800;
+  color:white;
+}
